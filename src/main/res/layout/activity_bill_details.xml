@@ -1,0 +1,323 @@
+<ScrollView
+         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_bill_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/b_relative"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/d_bill_star"
+                android:foregroundGravity="left"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_star_w"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/b_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:text="Bill ID:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/bill_name_font"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_billid"
+                android:text="N.A"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                />
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:text="Title:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv1"
+                />
+
+            <TextView
+                android:id="@+id/b_details_title"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_alignBaseline="@+id/tv2"
+                android:layout_alignBottom="@+id/tv2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:text="Bill Type:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b_details_title"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_btype"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_title"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:text="Sponsor:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv3"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_sponsor"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_btype"
+                />
+
+
+            <TextView
+                android:id="@+id/tv5"
+                android:text="Chamber:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv4"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_chamber"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_sponsor"
+                />
+
+
+            <TextView
+                android:id="@+id/tv6"
+                android:text="Status:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv5"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_statuc"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_chamber"
+                />
+
+
+            <TextView
+                android:id="@+id/tv7"
+                android:text="Introduced On:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv6"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_introduced"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_statuc"
+                />
+
+
+            <TextView
+                android:id="@+id/tv8"
+                android:text="Congress URL:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv7"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_congressurl"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_introduced"
+                />
+
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_below="@+id/b_details_congressurl"
+                android:text="Version Status:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="0"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_versionstatus"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_congressurl"
+                />
+
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_below="@+id/tv9"
+                android:text="Bill URL:"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="0"
+                />
+
+
+            <TextView
+                android:id="@+id/b_details_burl"
+                android:text="N.A"
+                android:layout_gravity="right"
+                android:padding="10dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/bill_name_font"
+                android:layout_below="@+id/b_details_versionstatus"
+                />
+
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

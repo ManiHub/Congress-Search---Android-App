@@ -87,9 +87,9 @@ public class Bills extends Fragment implements TaskCompleted {
 
                             }catch (Exception exp){
                                 int x =10;
-                            } //http://104.198.0.197:8080/bills?history.active=true&apikey=557e1c43ef49410ba98106c87347f140&per_page=100"
+                            } //http://104.198.0.197:8080/bills?history.active=true&apikey=&per_page=100"
                         }
-                    }).execute("http://104.198.0.197:8080/bills?history.active=true&apikey=557e1c43ef49410ba98106c87347f140&per_page=100"); //http://sample-env.jt3d9biumb.us-west-2.elasticbeanstalk.com/index.php?type=Bills&status=active");
+                    }).execute("http://104.198.0.197:8080/bills?history.active=true&apikey=&per_page=100"); //http://sample-env.jt3d9biumb.us-west-2.elasticbeanstalk.com/index.php?type=Bills&status=active");
 
         }catch (Exception exp){
 
@@ -113,9 +113,9 @@ public class Bills extends Fragment implements TaskCompleted {
 
                     }catch (Exception exp){
                         int x =10;
-                    } //http://104.198.0.197:8080/bills?history.active=true&apikey=557e1c43ef49410ba98106c87347f140&per_page=100"
+                    } //http://104.198.0.197:8080/bills?history.active=true&apikey=&per_page=100"
                 }
-            }).execute("http://104.198.0.197:8080/bills?history.active=false&apikey=557e1c43ef49410ba98106c87347f140&per_page=100"); //http://sample-env.jt3d9biumb.us-west-2.elasticbeanstalk.com/index.php?type=Bills&status=active");
+            }).execute("http://104.198.0.197:8080/bills?history.active=false&apikey=&per_page=100"); //http://sample-env.jt3d9biumb.us-west-2.elasticbeanstalk.com/index.php?type=Bills&status=active");
 
         }catch (Exception exp){
 

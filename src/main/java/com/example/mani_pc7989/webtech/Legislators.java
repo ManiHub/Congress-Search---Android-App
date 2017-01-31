@@ -105,8 +105,8 @@ public class Legislators extends Fragment implements TaskCompleted {
                         } catch (Exception exp) {
                             int x = 10;
                         }
-                    }//http://104.198.0.197:8080/legislators?apikey=557e1c43ef49410ba98106c87347f140&per_page=all
-                }).execute("http://104.198.0.197:8080/legislators?apikey=557e1c43ef49410ba98106c87347f140&per_page=all"); //http://sample-env.jt3d9biumb.us-west-2.elasticbeanstalk.com/index.php?type=Legislators
+                    }
+                }).execute("http://104.198.0.197:8080/legislators?apikey=&per_page=all"); //http://sample-env.jt3d9biumb.us-west-2.elasticbeanstalk.com/index.php?type=Legislators
             }
             else {
                 AppendDataTOUI(BusinessObjects.Archive.A_Legislators,R.id.leg_stae_lv,"S");
